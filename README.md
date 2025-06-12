@@ -1,120 +1,85 @@
-# AR Study Buddy في Flutter
-======================
+# 🎓 AR Study Buddy in Flutter
 
-A comprehensive Arabic-focused study companion application built with Flutter, designed to enhance learning experiences through structured study sessions and focus-enhancing features.
+**AR Study Buddy** is a smart and interactive learning assistant built using **Flutter** and **Augmented Reality (AR)**. This app enhances study sessions with immersive experiences, flashcards, quizzes, and real-time object interaction to make learning fun and effective.
 
-## Table of Contents
----------------
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![AR](https://img.shields.io/badge/Augmented%20Reality-FF6F61?style=for-the-badge)
+![MIT License](https://img.shields.io/github/license/uwaim45264/Ar-Study-Buddy-In-Flutter?style=for-the-badge)
 
-* [Overview](#overview)
-* [Features](#features)
-* [Getting Started](#getting-started)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contributing](#contributing)
-* [License](#license)
+---
 
-## Overview
-------------
+## 📚 Table of Contents
 
-AR Study Buddy is designed to help Arabic-speaking students maintain focus and achieve their academic goals through:
+- [Overview](#overview)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Technologies Used](#technologies-used)
+- [License](#license)
 
-* Structured study sessions
-* Progress tracking
-* Focus-enhancing features
-* Offline functionality
-* RTL support for Arabic content
+---
 
-## Features
-------------
+## 🧠 Overview
 
-### Core Functionality
+AR Study Buddy combines the power of **Augmented Reality** and **mobile learning** into a single application. With real-time object rendering, educational overlays, and smart assistance, it becomes an ideal tool for learners of all ages.
 
-✓ Study session management
-✓ Progress tracking system
-✓ Focus mode implementation
-✓ Offline data persistence
-✓ RTL text support
+---
 
-### Technical Specifications
+## ✨ Features
 
-🔧 Built with Flutter framework
-💾 Uses SharedPreferences for offline storage
-🔄 Implements Firebase for synchronization
-🎯 Supports both Arabic and English interfaces
+- 🧠 Augmented reality overlays for educational content
+- 📱 User-friendly and interactive Flutter UI
+- 🔎 Real-time camera-based detection or tracking
+- 📚 Flashcards, quizzes, and visual learning modules
+- 🚀 Cross-platform: Android and iOS support
 
-## Getting Started
----------------
+---
 
-Before diving into the project, ensure you have:
+## 🚀 Getting Started
 
-### Prerequisites
+### ✅ Prerequisites
 
-* Flutter SDK installed
-* Android Studio/VS Code with Flutter extension
-* Firebase account (optional)
+- Flutter SDK (>= 3.7.2)
+- Dart SDK
+- ARCore / ARKit supported device
+- Android Studio or VS Code
+- AR packages like `ar_flutter_plugin`
 
-### Installation
---------------
-
-```bash
-# Clone the repository
-git clone https://github.com/uwaim45264/Ar-Study-Buddy-In-Flutter.git
-
-# Navigate to project directory
-cd Ar-Study-Buddy-In-Flutter
-
-# Get dependencies
-flutter pub get
-
-# Run application
-flutter run
+### 📦 Dependencies Example
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  ar_flutter_plugin: ^0.7.0 # Example, replace with actual version
+  cupertino_icons: ^1.0.8
 ```
+## ▶️ Usage
+Launch the app and grant camera permissions
 
-## Usage
------
+Scan a surface to place 3D models or educational content
 
-The app provides multiple study modes:
+Interact with flashcards or take quizzes in AR mode
 
-### Study Session Management
+Great for subjects like biology, physics, math, and more
 
-📚 Create focused study sessions
-⏰ Set custom duration intervals
-📊 Track progress and statistics
-📝 Add notes during sessions
+## 🧰 Technologies Used
+Flutter – UI Framework
 
-### Focus Enhancement
+Dart – Programming Language
 
-🎯 Pomodoro timer integration
-🔇 Do-not-disturb mode
-📱 Phone usage tracking
-📈 Progress visualization
+AR Flutter Plugin / ARCore / ARKit – Augmented Reality
 
-## Contributing
-------------
+Android/iOS SDKs – Native capabilities
 
-Contributions are welcome! Please:
+## 📄 License
+This project is licensed under the MIT License.
 
-1. Fork the repository
-2. Create a feature branch
-3. Submit a pull request
-4. Ensure tests pass
+## 🤝 Contributing
+Feel free to fork the repo and submit pull requests. Contributions are highly appreciated.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+## 📬 Contact
+Created by Muhammad Uwaim Qureshi — feel free to reach out or suggest ideas.
 
-## License
--------
-
-This project uses the MIT License - see [LICENSE](LICENSE) for details.
-
-## Acknowledgments
----------------
-
-Special thanks to:
-- Muhammad Uwaim Qureshi - Project maintainer
-
-## Badges
---------
-
-[![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)](https://flutter.dev/)
-[![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)](https://firebase.google.com/)
